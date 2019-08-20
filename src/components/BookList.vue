@@ -2,9 +2,7 @@
 <div>
     <h1>{{title}}</h1>
     <ul>
-        <li>Book 1</li>
-        <li>Book 2</li>
-        <li>Book 3</li>
+        <li v-for="book in books">{{book.title}}:{{book.author}}</li>
     </ul>
 </div>    
 </template>
